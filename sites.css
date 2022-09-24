@@ -1,0 +1,31 @@
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+main{background-color:lightgrey; padding:10px; color:black; grid-area: main}
+
+h1, h2{color:darkblue; font-family:Georgia, 'Times New Roman', Times, serif}
+
+#headshot{border:1px solid darkblue; padding: 2px; margin:8px; border-radius:8px; width:50px;}
+
+.experience{border: inset 1px; margin-bottom:4px; padding:4px; background-color: white; color:black}
+
+.experience .title{font-weight: bold;}
+
+footer{text-align: center; background-color: cadetblue; padding:5px; position:fixed; bottom:0px; width: 100%; left:0px; grid-area: footer}
+
+#menu li{display: inline; padding:8px; background-color:rgb(66, 64, 64);}
+
+#menu li a{color:white !important; text-decoration: none;}
+
+#menu li.active{ background-color: darkslateblue;}
+
+#menu{float: right;}
+
+header{display:flex; justify-content: start; align-items: center; grid-area: header;}
+
+header #menu{margin-left: auto}
+
+.container{display: grid; grid-template-areas: "header header" "main aside" "footer footer"; grid-template-columns: auto 200px; grid-gap: 10px}
+
+aside{grid-area: aside}
+
+#formInfo{font-size: 14px; font-style: italic}
